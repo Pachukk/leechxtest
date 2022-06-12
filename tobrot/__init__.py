@@ -54,17 +54,17 @@ for imp in ["TG_BOT_TOKEN", "APP_ID", "API_HASH", "OWNER_ID", "AUTH_CHANNEL"]:
 '''
 
 # The Telegram API things
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5139162631:AAHGWHHbnbu7k5jOjXW-axcNuJcSRpBktr4")
-APP_ID = os.environ.get("APP_ID", "6878048")
-API_HASH = os.environ.get("API_HASH", "3833ae3a7415af46df46a83a3ba2c432")
-OWNER_ID = int(os.environ.get("OWNER_ID", "1242011540"))
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5226949967:AAHNGh7ERkzxpcsY2s8nEhXW2de6GcXh1oc")
+APP_ID = os.environ.get("APP_ID", "6351429")
+API_HASH = os.environ.get("API_HASH", "912c2bcd930fb7dd5bac711b8c4d4895)
+OWNER_ID = int(os.environ.get("OWNER_ID", "1584694165"))
 
 # Get these values from my.telegram.org
 # to store the channel ID who are authorized to use the bot
-AUTH_CHANNEL = [int(x) for x in os.environ.get("AUTH_CHANNEL", "-1001270496331 -1001508663868").split()]
+AUTH_CHANNEL = [int(x) for x in os.environ.get("AUTH_CHANNEL", "-1001357114313").split()]
 
 # Cuz most ppl dunno AUTH_CHANNEL also works as SUDO
-SUDO_USERS = [int(sudos) if (' ' not in os.environ.get('SUDO_USERS', '')) else int(sudos) for sudos in os.environ.get('SUDO_USERS', '').split()]
+SUDO_USERS = [int(sudos) if (' ' not in os.environ.get('SUDO_USERS', '792853895')) else int(sudos) for sudos in os.environ.get('SUDO_USERS', '').split()]
 
 # the download location, where the HTTP Server runs
 DOWNLOAD_LOCATION = "./DOWNLOADS"
