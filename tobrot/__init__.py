@@ -15,8 +15,8 @@ import telegram.ext as tg
 
 from pyrogram import Client
 
-if os.path.exists("FuZionXLogs.txt"):
-    with open("FuZionXLogs.txt", "r+") as f_d:
+if os.path.exists("TorrentLeech-Gdrive.txt"):
+  with open("Torrentleech-Gdrive.txt", "r+") as f_d:
         f_d.truncate(0)
 
 # the logging things
